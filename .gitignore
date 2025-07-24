@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+venv/
+.env
+.env.*
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+build/
+dist/
+*.log
+
+# React
+frontend/build/
+frontend/node_modules/
+
+# FastAPI
+backend/__pycache__/
+backend/.pytest_cache/
+backend/node_modules/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hugging Face / auth
+huggingface/token
+*.safetensors
+
+# Docker/compose volumes (optional)
+*.pid
+*.sock
+
+# Archive or compressed files
+*.zip
+*.tar.gz
+*.tgz
+
+# Coverage
+.coverage
+htmlcov/
+
+# Others
+*.bak
+*.swp
