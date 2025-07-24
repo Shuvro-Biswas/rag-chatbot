@@ -1,59 +1,45 @@
 # Python
+*.pyc
 __pycache__/
-*.py[cod]
 *.pyo
 *.pyd
 *.sqlite3
-*.db
+*.log
+
+# Virtual environment
 venv/
 .env
 .env.*
 
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Coverage and test reports
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
 
-# Build outputs
+# React (Frontend)
+node_modules/
+*.log
 build/
 dist/
-*.log
+*.env
 
-# React
-frontend/build/
-frontend/node_modules/
+# System files
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
 
-# FastAPI
-backend/__pycache__/
-backend/.pytest_cache/
-backend/node_modules/
-
-# IDEs
+# Editor-specific
 .vscode/
 .idea/
 
-# OS
-.DS_Store
-Thumbs.db
+# PostgreSQL dump or cache files (if any)
+*.pgsql
+*.psql
+*.sql
+*.dump
 
-# Hugging Face / auth
-huggingface/token
-*.safetensors
-
-# Docker/compose volumes (optional)
-*.pid
-*.sock
-
-# Archive or compressed files
-*.zip
-*.tar.gz
-*.tgz
-
-# Coverage
-.coverage
-htmlcov/
-
-# Others
-*.bak
-*.swp
+# Ignore PDF/Docs (if not tracked)
+*.pdf
