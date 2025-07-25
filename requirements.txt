@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+PyMuPDF
+sentence-transformers
+numpy
+psycopg2-binary
+scikit-learn
